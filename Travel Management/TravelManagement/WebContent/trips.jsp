@@ -1,0 +1,337 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="trip.css">
+
+ <!--  <style type="text/css">
+    
+    div {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+  </style> -->
+
+<style type="text/css">
+   .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+  display:block;
+  background-image: url(sea5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+</style>
+
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="ind.png" width="18%" height="18%" style="float: left;" > Travel india</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Tours
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="trip.html">Leh</a>
+          <a class="dropdown-item" href="trip.html">Kerala</a>
+          <a class="dropdown-item" href="trip.html">Andaman</a>
+          <a class="dropdown-item" href="trip.html">Rahjasthan</a>
+          <a class="dropdown-item" href="trip.html">Sikkim</a>
+          <a class="dropdown-item" href="trip.html">Andhra Pradesh</a>
+        </div>
+
+
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About India</a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      
+<!-- 
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">disable</a>
+      </li> -->
+
+    </ul>
+
+
+    <!-- 
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<div style="width: 900px " class="div" >
+        <marquee behavior="scroll" direction="left" Scrollamount=20>
+          <img style="width: 700px; height: 400px;" src="kerala.jpg " >
+          <img style="width: 700px; height: 400px;" src="leh.jpg " alt="leh">
+          <img style="width: 700px; height: 400px;" src="rajasthan.jpg " alt="rajasthan">
+          <img style="width: 700px; height: 400px;" src="andaman.jpg " alt="andaman">
+          <img style="width: 700px; height: 400px;" src="ap.jpg " alt="andhra pradesh">
+          <img style="width: 700px; height: 400px;" src="sikkim.jpg " alt="Sikkim">
+      </marquee>
+</div><br><br><br>
+
+
+<div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="Andaman.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;"> Andaman: Port Blair - Havelock - Neil Island - Ross island</h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Port Blair </li>
+                                      <li> Havelock Island </li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li> Neil Island </li>
+                                      <li>Bartang Islands.</li>
+                                    </ul>
+                                      <a href="book.jsp"> <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+
+
+
+
+
+    <div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="leh.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;"> leh:Pangong Lake-Shanti Stupa- Tso Moriri Lake-Leh Palace-Khardung La Pass</h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Visit Kargil War Memorial</li>
+                                      <li>Explore Leh</li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li> Nubra Valley sightseeing</li>
+                                      <li> Sightsee Diskit Monastery</li>
+                                    </ul>
+                                     <a href="book.html">  <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+
+     <div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="kerala.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;"> kerala :Cochin – Munnar  – Alleppey – Kovalam – Trivandrum -thekkady-Wayanad</h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Explore Munnar</li>
+                                      <li>Stay on a luxury houseboat</li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Explore charms of Munnar</li>
+                                      <li>Trek up to Chembra Peak</li>
+                                    </ul>
+                                    <a href="book.html">   <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+
+     <div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="ap.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;"> Andhra Pradesh: tirupati-vishakapatnam-Araku-Rajahmundry-Amaravati- kurnool</h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Sightseeing of amaravathi and surrounding places</li>
+                                      <li>Visit to devotional town srisailam</li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Explore attractions of visakha</li>
+                                      <li>A days trip to spiritual capital of AP(TIRUPATI)</li>
+                                    </ul>
+                                     <a href="book.html">  <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+
+     <div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="rajasthan.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;">Rajastan: Jaipur- Pushkar- Jodhpur - Mount Abu – Udaipur</h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Jaipur city tour</li>
+                                      <li>Explore attractions of Jaisalmer</li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Try adventure activities in Kufri valley</li>
+                                      <li>Excursion to Fatehpur Sikri</li>
+                                    </ul>
+                                     <a href="book.html">  <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+
+
+     <div class="container">
+      <div  style="background-color: #ddd;width: 100%; height: auto;display: inline-block;">
+        <img style="float: left;padding: 20px;width: 290px;height: 160px;line-height: 200%" src="Sikkim.jpg">
+          <div style="padding-top: 25px">
+
+                <b><h4 style="text-align: left;"> 5 Nights /6 Days </h4></b>
+                              <img style="float: left;" src="https://img.icons8.com/plasticine/20/000000/place-marker.png"/>
+                              <h5 style="text-align: left;"> Sikim:Jaipur- Pushkar- Jodhpur - Mount Abu </h5>
+                             <div style="text-align: left;"> Trip hightlights:<br>
+                              <span>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Visit Buddhist Lachung Monastery</li>
+                                      <li>Visit colorful Yumthang Valley</li>
+                                    </ul>
+                                    <ul style="list-style-type: disc;display: inline-block;">
+                                      <li>Sunrise view of Tiger Hill at Darjeeling</li>
+                                      <li>Explore Monastery in Gangtok Darjeeling trip</li>
+                                    </ul>
+                                      <a href="book.html"> <input class="button1" style="float: right; margin-right: 30px; margin-top: 20px;height: 50px" type="submit" name="button" value="Book a Tour!" ></a>
+                              </span>   
+
+
+
+                        </div>    
+              </div>
+          </div>
+    </div><br><br><br>
+
+<hr style="width: 60%">
+
+
+<!--footet-->
+
+<div style="background-color: #eee;width: 100%; height: 384px;display: inline-block;position: relative;">
+        <div style="margin-left: 100px; margin-right:100px; margin-top: 20px; margin-bottom: 0px ;float: right;" class="footer">
+           <h2> Follow us </h2><br>
+           <p><img src="https://img.icons8.com/fluent/40/000000/facebook-new.png"/> Facebook  &#160;&#160;&#160;&#160; <img src="https://img.icons8.com/fluent/40/000000/instagram-new.png"/>Instagram &#160;&#160;&#160;&#160; <img src="https://img.icons8.com/fluent/40/000000/twitter.png"/> Twitter </p><hr>
+           <h2>Contact Us</h2>
+           <img src="https://img.icons8.com/material-two-tone/24/000000/near-me.png"/>
+
+           <pre style="display: inline;"> Headquarters<br><h6 style="opacity: 0.5">    Krishna Saphire-Seventh floor<br>    Hyderbad,500062<br><br><h6></h6><img src="https://img.icons8.com/material-sharp/24/000000/phone.png"/> +91 9603074755<br><br><img src="https://img.icons8.com/material-outlined/24/000000/new-post.png"/> info@travelindia.com
+           </pre>
+        
+        </div>
+       <div>
+
+           <h3 style="margin-top: 20px; padding-left: 50px">About Us</h3>
+           <div style="padding-left: 50px">
+            Travel India is a newly setup tours and travel company and a destination management expert that offers all-inclusive tours to India. This is the primary website of the company, Travel India Pvt. Ltd., and features best possible tours to every possible tourist destination in India. Travel India will provide you all the facilities whilst you are on your personal journey - the journey of a lifetime. Believe us when we say, Possibilities are Unlimited - You only need your imagination to find them and guts to live them. Our mission is to provide Quality and excellence to our customers promptly and exclusively. All the professionals at Travel India are masters of their trade and each brings with him/her a unique set of experience adding value to the traveler's overall experience of the country. To put it simply, we know what a traveler anticipates and more than that we know what it takes to satisfy them.
+
+
+           </div>
+
+           
+       </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
+ 
