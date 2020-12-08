@@ -1,0 +1,23 @@
+create database TravelManagement;
+use TravelManagement;
+create table user(
+name varchar(100),
+password varchar(100)
+);
+select * from user;
+
+create table booking(
+name varchar(100),
+email varchar(100),
+phonenumber varchar(100),
+place varchar(100),
+departure varchar(100),
+Adults varchar(100),
+Children varchar(100),
+additional varchar(100)
+);
+select * from booking;
+
+create table chat(chat1 varchar(100));
+select * from chat;
+
